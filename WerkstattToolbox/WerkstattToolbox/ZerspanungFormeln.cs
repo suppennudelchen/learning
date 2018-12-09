@@ -6,8 +6,11 @@ using System.Threading.Tasks;
 
 namespace WerkstattToolbox
 {
-    public class ZerspanungFormeln
+    public static class ZerspanungFormeln
     {
+
+        //statische Klasse, Keyword static
+
         //Schnittgeschwindigkeit Vc
         public static double Schnittgeschwindigkeit_Vc(double durchmesser, double drehzahl)
         {

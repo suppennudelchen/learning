@@ -125,7 +125,7 @@
             this.Btn_Berechne_Drehzahl.TabIndex = 8;
             this.Btn_Berechne_Drehzahl.Text = "Berechne Drehzahl";
             this.Btn_Berechne_Drehzahl.UseVisualStyleBackColor = true;
-            this.Btn_Berechne_Drehzahl.Click += new System.EventHandler(this.button_Berechne_Drehzahl_Click);
+            this.Btn_Berechne_Drehzahl.Click += new System.EventHandler(this.Btn_Berechne_Drehzahl_Click);
             // 
             // label5
             // 
@@ -145,13 +145,13 @@
             this.Ausgabe_Drehzahl.Name = "Ausgabe_Drehzahl";
             this.Ausgabe_Drehzahl.Size = new System.Drawing.Size(205, 30);
             this.Ausgabe_Drehzahl.TabIndex = 10;
-            this.Ausgabe_Drehzahl.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.Ausgabe_Drehzahl.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label6
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(638, 86);
+            this.label6.Location = new System.Drawing.Point(638, 102);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(182, 25);
             this.label6.TabIndex = 11;
@@ -161,10 +161,11 @@
             // 
             this.Ausgabe_Vorschub.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.Ausgabe_Vorschub.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Ausgabe_Vorschub.Location = new System.Drawing.Point(828, 86);
+            this.Ausgabe_Vorschub.Location = new System.Drawing.Point(828, 102);
             this.Ausgabe_Vorschub.Name = "Ausgabe_Vorschub";
-            this.Ausgabe_Vorschub.Size = new System.Drawing.Size(205, 25);
+            this.Ausgabe_Vorschub.Size = new System.Drawing.Size(205, 30);
             this.Ausgabe_Vorschub.TabIndex = 12;
+            this.Ausgabe_Vorschub.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Btn_Berechne_Vorschub
             // 
@@ -173,7 +174,7 @@
             this.Btn_Berechne_Vorschub.Name = "Btn_Berechne_Vorschub";
             this.Btn_Berechne_Vorschub.Size = new System.Drawing.Size(206, 66);
             this.Btn_Berechne_Vorschub.TabIndex = 13;
-            this.Btn_Berechne_Vorschub.Text = "Berechne Drehzahl";
+            this.Btn_Berechne_Vorschub.Text = "Berechne Vorschub";
             this.Btn_Berechne_Vorschub.UseVisualStyleBackColor = true;
             this.Btn_Berechne_Vorschub.Click += new System.EventHandler(this.Btn_Berechne_Vorschub_Click);
             // 
@@ -181,7 +182,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1124, 620);
+            this.ClientSize = new System.Drawing.Size(1124, 644);
             this.Controls.Add(this.Btn_Berechne_Vorschub);
             this.Controls.Add(this.Ausgabe_Vorschub);
             this.Controls.Add(this.label6);
