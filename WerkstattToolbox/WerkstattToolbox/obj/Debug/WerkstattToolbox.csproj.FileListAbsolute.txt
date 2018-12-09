@@ -8,3 +8,13 @@ C:\Users\cpohl\source\repos\WerkstattToolbox\WerkstattToolbox\obj\Debug\Werkstat
 C:\Users\cpohl\source\repos\WerkstattToolbox\WerkstattToolbox\obj\Debug\WerkstattToolbox.csproj.CoreCompileInputs.cache
 C:\Users\cpohl\source\repos\WerkstattToolbox\WerkstattToolbox\obj\Debug\WerkstattToolbox.exe
 C:\Users\cpohl\source\repos\WerkstattToolbox\WerkstattToolbox\obj\Debug\WerkstattToolbox.pdb
+C:\Users\cpohl\source\repos\learning\WerkstattToolbox\WerkstattToolbox\bin\Debug\WerkstattToolbox.exe.config
+C:\Users\cpohl\source\repos\learning\WerkstattToolbox\WerkstattToolbox\bin\Debug\WerkstattToolbox.exe
+C:\Users\cpohl\source\repos\learning\WerkstattToolbox\WerkstattToolbox\bin\Debug\WerkstattToolbox.pdb
+C:\Users\cpohl\source\repos\learning\WerkstattToolbox\WerkstattToolbox\obj\Debug\WerkstattToolbox.csprojAssemblyReference.cache
+C:\Users\cpohl\source\repos\learning\WerkstattToolbox\WerkstattToolbox\obj\Debug\WerkstattToolbox.Form1.resources
+C:\Users\cpohl\source\repos\learning\WerkstattToolbox\WerkstattToolbox\obj\Debug\WerkstattToolbox.Properties.Resources.resources
+C:\Users\cpohl\source\repos\learning\WerkstattToolbox\WerkstattToolbox\obj\Debug\WerkstattToolbox.csproj.GenerateResource.cache
+C:\Users\cpohl\source\repos\learning\WerkstattToolbox\WerkstattToolbox\obj\Debug\WerkstattToolbox.csproj.CoreCompileInputs.cache
+C:\Users\cpohl\source\repos\learning\WerkstattToolbox\WerkstattToolbox\obj\Debug\WerkstattToolbox.exe
+C:\Users\cpohl\source\repos\learning\WerkstattToolbox\WerkstattToolbox\obj\Debug\WerkstattToolbox.pdb

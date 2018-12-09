@@ -36,12 +36,12 @@
             this.textBox_Schnittgeschwindigkeit = new System.Windows.Forms.TextBox();
             this.textBox_AnzahlZaehne = new System.Windows.Forms.TextBox();
             this.textBox_VorschubProZahn = new System.Windows.Forms.TextBox();
-            this.button_Berechnen_1 = new System.Windows.Forms.Button();
+            this.Btn_Berechne_Drehzahl = new System.Windows.Forms.Button();
             this.label5 = new System.Windows.Forms.Label();
             this.Ausgabe_Drehzahl = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.Ausgabe_Vorschub = new System.Windows.Forms.Label();
-            this.ErrorBox = new System.Windows.Forms.Label();
+            this.Btn_Berechne_Vorschub = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label3
@@ -116,22 +116,22 @@
             this.textBox_VorschubProZahn.Size = new System.Drawing.Size(100, 30);
             this.textBox_VorschubProZahn.TabIndex = 7;
             // 
-            // button_Berechnen_1
+            // Btn_Berechne_Drehzahl
             // 
-            this.button_Berechnen_1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button_Berechnen_1.Location = new System.Drawing.Point(485, 58);
-            this.button_Berechnen_1.Name = "button_Berechnen_1";
-            this.button_Berechnen_1.Size = new System.Drawing.Size(122, 48);
-            this.button_Berechnen_1.TabIndex = 8;
-            this.button_Berechnen_1.Text = "Berechnen";
-            this.button_Berechnen_1.UseVisualStyleBackColor = true;
-            this.button_Berechnen_1.Click += new System.EventHandler(this.button_Berechnen_1_Click);
+            this.Btn_Berechne_Drehzahl.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Btn_Berechne_Drehzahl.Location = new System.Drawing.Point(426, 9);
+            this.Btn_Berechne_Drehzahl.Name = "Btn_Berechne_Drehzahl";
+            this.Btn_Berechne_Drehzahl.Size = new System.Drawing.Size(206, 66);
+            this.Btn_Berechne_Drehzahl.TabIndex = 8;
+            this.Btn_Berechne_Drehzahl.Text = "Berechne Drehzahl";
+            this.Btn_Berechne_Drehzahl.UseVisualStyleBackColor = true;
+            this.Btn_Berechne_Drehzahl.Click += new System.EventHandler(this.button_Berechne_Drehzahl_Click);
             // 
             // label5
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(638, 48);
+            this.label5.Location = new System.Drawing.Point(638, 29);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(155, 25);
             this.label5.TabIndex = 9;
@@ -141,10 +141,11 @@
             // 
             this.Ausgabe_Drehzahl.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.Ausgabe_Drehzahl.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Ausgabe_Drehzahl.Location = new System.Drawing.Point(828, 48);
+            this.Ausgabe_Drehzahl.Location = new System.Drawing.Point(828, 29);
             this.Ausgabe_Drehzahl.Name = "Ausgabe_Drehzahl";
-            this.Ausgabe_Drehzahl.Size = new System.Drawing.Size(205, 25);
+            this.Ausgabe_Drehzahl.Size = new System.Drawing.Size(205, 30);
             this.Ausgabe_Drehzahl.TabIndex = 10;
+            this.Ausgabe_Drehzahl.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // label6
             // 
@@ -165,27 +166,28 @@
             this.Ausgabe_Vorschub.Size = new System.Drawing.Size(205, 25);
             this.Ausgabe_Vorschub.TabIndex = 12;
             // 
-            // ErrorBox
+            // Btn_Berechne_Vorschub
             // 
-            this.ErrorBox.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.ErrorBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ErrorBox.ForeColor = System.Drawing.Color.Red;
-            this.ErrorBox.Location = new System.Drawing.Point(485, 122);
-            this.ErrorBox.Name = "ErrorBox";
-            this.ErrorBox.Size = new System.Drawing.Size(548, 25);
-            this.ErrorBox.TabIndex = 18;
+            this.Btn_Berechne_Vorschub.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Btn_Berechne_Vorschub.Location = new System.Drawing.Point(426, 81);
+            this.Btn_Berechne_Vorschub.Name = "Btn_Berechne_Vorschub";
+            this.Btn_Berechne_Vorschub.Size = new System.Drawing.Size(206, 66);
+            this.Btn_Berechne_Vorschub.TabIndex = 13;
+            this.Btn_Berechne_Vorschub.Text = "Berechne Drehzahl";
+            this.Btn_Berechne_Vorschub.UseVisualStyleBackColor = true;
+            this.Btn_Berechne_Vorschub.Click += new System.EventHandler(this.Btn_Berechne_Vorschub_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1124, 620);
-            this.Controls.Add(this.ErrorBox);
+            this.Controls.Add(this.Btn_Berechne_Vorschub);
             this.Controls.Add(this.Ausgabe_Vorschub);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.Ausgabe_Drehzahl);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.button_Berechnen_1);
+            this.Controls.Add(this.Btn_Berechne_Drehzahl);
             this.Controls.Add(this.textBox_VorschubProZahn);
             this.Controls.Add(this.textBox_AnzahlZaehne);
             this.Controls.Add(this.textBox_Schnittgeschwindigkeit);
@@ -211,12 +213,12 @@
         private System.Windows.Forms.TextBox textBox_Schnittgeschwindigkeit;
         private System.Windows.Forms.TextBox textBox_AnzahlZaehne;
         private System.Windows.Forms.TextBox textBox_VorschubProZahn;
-        private System.Windows.Forms.Button button_Berechnen_1;
+        private System.Windows.Forms.Button Btn_Berechne_Drehzahl;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label Ausgabe_Drehzahl;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label Ausgabe_Vorschub;
-        private System.Windows.Forms.Label ErrorBox;
+        private System.Windows.Forms.Button Btn_Berechne_Vorschub;
     }
 }
 
