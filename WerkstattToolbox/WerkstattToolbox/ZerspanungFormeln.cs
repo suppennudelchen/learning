@@ -10,14 +10,7 @@ namespace WerkstattToolbox
     {
 
         //statische Klasse, Keyword static
-
-        //
-        // Ein kleine Aenderung
-        // oje mnie
-
-        //Ein Test für Git
-
-
+        
         //Schnittgeschwindigkeit Vc
         public static double Schnittgeschwindigkeit_Vc(double durchmesser, double drehzahl)
         {
