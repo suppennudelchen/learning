@@ -12,8 +12,7 @@ namespace WerkstattToolbox
         //statische Klasse, Keyword static
         // Stand 9.12.18
 
-        // dieser Text soll
-        // wieder weg !!!!!!!!!!!!!!!!!!!!!!!!
+        
         
         //Schnittgeschwindigkeit Vc
         public static double Schnittgeschwindigkeit_Vc(double durchmesser, double drehzahl)
