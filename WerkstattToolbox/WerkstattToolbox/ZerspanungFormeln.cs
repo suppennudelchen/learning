@@ -10,7 +10,7 @@ namespace WerkstattToolbox
     {
 
         //statische Klasse, Keyword static
-        // Das ist der Commit dreckmist
+        // Das ist der Commit 99
         
         //Schnittgeschwindigkeit Vc
         public static double Schnittgeschwindigkeit_Vc(double durchmesser, double drehzahl)
