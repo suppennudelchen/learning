@@ -10,6 +10,9 @@ namespace WerkstattToolbox
     {
 
         //statische Klasse, Keyword static
+        //
+        // Ein kleine Aenderung
+        //
 
         //Schnittgeschwindigkeit Vc
         public static double Schnittgeschwindigkeit_Vc(double durchmesser, double drehzahl)
